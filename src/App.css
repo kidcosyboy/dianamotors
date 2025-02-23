@@ -1,0 +1,92 @@
+.container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  overflow: hidden;
+  box-sizing: border-box; /* Ensure padding/borders don't cause overflow */
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.about, .gallery, .contact {
+  margin: 20px 0;
+}
+
+#list {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0 auto; /* Center the list */
+  text-align: center; /* Center text */
+  gap: 10px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+#list li {
+  font-weight: bold;
+}
+
+.about {
+  display: grid;
+  justify-items: center;
+}
+
+.contact {
+  background-color: rgb(80, 80, 80);
+  margin-bottom: 0px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+  box-sizing: border-box; /* Prevent overflow from grid items */
+}
+
+.gallery {
+  padding: 25px;
+  padding-top: 20px;
+  margin: 0px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+html, body {
+  margin: 0;
+  background-color: white;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: black;
+  color: white
+}
+

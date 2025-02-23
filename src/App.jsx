@@ -1,12 +1,12 @@
 import "./App.css";
 
 const images = [
-  { src: "/assets/alignment.jpg", alt: "Wheel Alignment" },
-  { src: "/assets/boss.jpeg", alt: "Shop Owner" },
-  { src: "/assets/shop.jpeg", alt: "Inside the Shop" },
-  { src: "/assets/lift.jpeg", alt: "Car Lift in Action" },
-  { src: "/assets/x540.jpeg", alt: "X540 Machine" },
-  { src: "/assets/outdoors.jpeg", alt: "Shop Exterior" },
+  { src: "./alignment.jpg", alt: "Wheel Alignment" },
+  { src: "./boss.jpeg", alt: "Shop Owner" },
+  { src: "./shop.jpeg", alt: "Inside the Shop" },
+  { src: "./lift.jpeg", alt: "Car Lift in Action" },
+  { src: "./x540.jpeg", alt: "X540 Machine" },
+  { src: "./outdoors.jpeg", alt: "Shop Exterior" },
 ];
 
 function App() {

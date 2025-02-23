@@ -2,7 +2,7 @@
   "name": "diana",
   "private": true,
   "version": "0.0.0",
-  "homepage": ".",
+  "homepage": "https://kidcosyboy.github.io/dianamotors",
   "type": "module",
   "scripts": {
     "dev": "vite",

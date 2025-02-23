@@ -1,19 +1,19 @@
 import "./App.css";
 
 const images = [
-  { src: "./alignment.jpg", alt: "Wheel Alignment" },
-  { src: "./boss.jpeg", alt: "Shop Owner" },
-  { src: "./shop.jpeg", alt: "Inside the Shop" },
-  { src: "./lift.jpeg", alt: "Car Lift in Action" },
-  { src: "./x540.jpeg", alt: "X540 Machine" },
-  { src: "./outdoors.jpeg", alt: "Shop Exterior" },
+  { src: "/alignment.jpg", alt: "Wheel Alignment" },
+  { src: "/boss.jpeg", alt: "Shop Owner" },
+  { src: "/all.jpeg", alt: "Inside the Shop" },
+  { src: "/lift.jpeg", alt: "Car Lift in Action" },
+  { src: "/x540.jpeg", alt: "X540 Machine" },
+  { src: "/outdoors.jpeg", alt: "Shop Exterior" },
 ];
 
 function App() {
   return (
     <div className="container">
       <div className="hero">
-        <img src="./shop.jpeg" alt="Inside the Shop" className="hero-image" />
+        <img src="/all.jpeg" alt="Inside the Shop" className="hero-image" />
         <div className="hero-text">
           <h1>Diana Drive Motors</h1>
           <p style={{fontSize: '1.2rem', fontWeight: 'normal'}}>At Diana Drive Motors, we specialize in high-quality car maintenance and repair services. With years of experience, we are dedicated to keeping your vehicle in top shape.</p>
